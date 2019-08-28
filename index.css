@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size:20px;
+    color:aqua;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/3912cf36c36c522404df143b80bef6a8.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo{
+    height:90px;
+    width: auto;
+    float:left;
+    margin-top: 20px;
+}
+
+.main{
+    float:right;
+    margin-top: 60px;
+}
+.main li a:hover{
+    
+    color:red;
+}
+.main li{
+    display:inline-block;
+    margin-left: 30px;
+  
+}
+
+.main li a{
+    color: aqua;
+    text-decoration: none;
+    font-size:110%;
+    font-weight: 100;
+}
+
+.bt{
+    width: 1180px;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+h1{
+    color:rgb(237, 228, 245);
+    font-size: 200%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.butn_1{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: lighter;
+    color:#bf55ec;
+    text-decoration: none;
+    margin-right:30px;
+    background-color: transparent;
+    border: 1px solid red;
+    transition: background-color 0.2s, border 0.2s,color 0.2s;
+}
+.butn_1:hover{
+    background-color: rgb(228, 218, 233);
+    color:red;
+}
+
+
+.butn_2{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    color:#bf55ec;
+    background-color: transparent;
+    border: 1px solid red;
+    transition: background-color 0.2s, border 0.2s,color 0.2s;
+}
+.butn_2:hover{
+    background-color: rgb(228, 218, 233);
+    color:red;
+    
+}
+
+.colourchanger{
+    animation: Amrit 1s infinite;
+}
+
+@keyframes Amrit{
+    25%{color:red;}
+    50%{color:blue;}
+    75%{color:green;}
+    100%{color:yellow;}
+}
+
+
